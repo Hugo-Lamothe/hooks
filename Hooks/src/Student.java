@@ -8,7 +8,4 @@ public class Student {
         this.prenom = prenom;
         this.promotion = promotion;
     }
-
-
-
 }
