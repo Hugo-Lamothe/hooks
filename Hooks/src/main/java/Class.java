@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.ArrayList;
 
 public class Class {
@@ -15,9 +17,13 @@ public class Class {
         students.add(s);
     }
 
-    public void removeStudents(){
-        for (Student s : students) {
-            students.remove(s);
+    public void removeStudents(Student s){
+        Boolean found = false;
+        for(Student student : students){
+            if(student == s)
+                found = true;
         }
+        if(found)
+            students.remove(s);
     }
 }

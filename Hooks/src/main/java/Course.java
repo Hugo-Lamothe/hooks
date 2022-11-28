@@ -1,3 +1,5 @@
+package main.java;
+
 public class Course {
     Matiere matiere;
     Professor professor;
@@ -9,11 +11,11 @@ public class Course {
         this.c = c;
     }
 
-    public void start(){
+    public void startCourse(){
         professor.startCourse();
     }
 
-    public void end(){
+    public void endCourse(){
         professor.endCourse();
     }
 }
