@@ -4,4 +4,4 @@
 DIR=$(dirname "$0")
 
 # Java >= 11
-exec java $DIR/Hook.java "pre-push hook" "false"
+exec java $DIR/Hook.java "pre-push hook" "true"

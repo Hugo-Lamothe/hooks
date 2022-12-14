@@ -4,4 +4,4 @@
 DIR=$(dirname "$0")
 
 # Java >= 11
-exec java $DIR/Hook.java "commit-msg hook" "test"
+exec java $DIR/Hook.java "commit-msg hook" "true"
